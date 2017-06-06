@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ThingDefs>
+
+<!--  Robot Components  -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>MRE_Basic_Component</defName>
+		<label>Basic Robot Component</label>
+		<description>Robotic Components are used as logic circuits within a robotic matrix.</description>
+		<graphicData>
+			<texPath>Things/Item/BasicComponent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>110</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<tradeTags>
+			<li>Robots</li>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+    
+	<ThingDef ParentName="ResourceBase">
+		<defName>MRE_Tier1_RobotCore</defName>
+		<label>Tier 1 Robot Core</label>
+		<description>A robot logical core. Engineered with a basic instruction set allowing it to perform suited tasks at an amateur-class skill level.</description>
+		<graphicData>
+			<texPath>Things/Item/Core_Tier1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Robots</li>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>MRE_Tier2_RobotCore</defName>
+		<label>Tier 2 Robot Core</label>
+		<description>A robot logical core. Engineered with a basic instruction set allowing it to perform suited tasks at a professional-class skill level.</description>
+		<graphicData>
+			<texPath>Things/Item/Core_Tier2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Robots</li>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>MRE_Tier3_RobotCore</defName>
+		<label>Tier 3 Robot Core</label>
+		<description>A robot logical core. Engineered with a basic instruction set allowing it to perform suited tasks at a master-class skill level.</description>
+		<graphicData>
+			<texPath>Things/Item/Core_Tier3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Robots</li>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>MRE_Tier4_RobotCore</defName>
+		<label>Tier 4 Robot Core</label>
+		<description>A robot logical core. Engineered with a basic instruction set allowing it to perform suited tasks at a visionary-class skill level.</description>
+		<graphicData>
+			<texPath>Things/Item/Core_Tier4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Robots</li>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+</ThingDefs>

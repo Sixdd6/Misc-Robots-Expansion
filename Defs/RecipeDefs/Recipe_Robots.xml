@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecipeDefs>
+
+<!--  Meta  -->
+	<!--  Component Item Meta  -->
+	<RecipeDef Abstract="True" Name="MRE_Components_Meta">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>1000</workAmount>
+		<skillRequirements>
+		<li>
+			<skill>Crafting</skill>
+			<minLevel>10</minLevel>
+		</li>
+		</skillRequirements>
+		<recipeUsers>
+			<li>RoboticsWorkbench</li>
+		</recipeUsers>
+		<jobString>Engineering Robotics.</jobString>
+	</RecipeDef>
+
+	<!--  Core Meta  -->
+	<RecipeDef Abstract="True" Name="MRE_RobotCore_Meta">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>1000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<recipeUsers>
+			<li>RoboticsWorkbench</li>
+		</recipeUsers>
+		<jobString>Engineering Robotics.</jobString>
+	</RecipeDef>
+	
+<!--Bot Tier1 Meta-->
+	<RecipeDef Abstract="True" Name="MRE_Robot_Tier1_Meta">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>5000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<jobString>Engineering Robotics.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>Plasteel</li>
+				  </thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MRE_Tier1_RobotCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MRE_Tier1_RobotCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>
+			<li>MRE_Tier1_Robotics</li>
+		</researchPrerequisite>
+		<recipeUsers>
+			<li>RoboticsWorkbench</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<!--Bot Tier2 Meta-->
+	<RecipeDef Abstract="True" Name="MRE_Robot_Tier2_Meta">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>8000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>12</minLevel>
+			</li>
+		</skillRequirements>
+		<jobString>Engineering Robotics.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>Plasteel</li>
+				  </thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MRE_Tier1_RobotCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MRE_Tier1_RobotCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>
+			<li>MRE_Tier2_Robotics</li>
+		</researchPrerequisite>
+		<recipeUsers>
+			<li>RoboticsWorkbench</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<!--Bot Tier3 Meta-->
+	<RecipeDef Abstract="True" Name="MRE_Robot_Tier3_Meta">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>10000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>14</minLevel>
+			</li>
+		</skillRequirements>
+		<jobString>Engineering Robotics.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>Plasteel</li>
+				  </thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MRE_Tier3_RobotCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MRE_Tier3_RobotCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>
+			<li>MRE_Tier3_Robotics</li>
+		</researchPrerequisite>
+		<recipeUsers>
+			<li>RoboticsWorkbench</li>
+		</recipeUsers>
+	</RecipeDef>
+
+<!--Bot Tier4 Meta-->
+	<RecipeDef Abstract="True" Name="MRE_Robot_Tier4_Meta">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>10000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>16</minLevel>
+			</li>
+		</skillRequirements>
+		<jobString>Engineering Robotics.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>Plasteel</li>
+				  </thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MRE_Tier4_RobotCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MRE_Tier4_RobotCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>
+			<li>MRE_Tier4_Robotics</li>
+		</researchPrerequisite>
+		<recipeUsers>
+			<li>RoboticsWorkbench</li>
+		</recipeUsers>
+	</RecipeDef>
+
+<!--  Component Items  -->
+	<!--  Basic Robot Component  -->
+	<RecipeDef ParentName="MRE_Components_Meta" Name="MRE_Recipe_Basic_Component">
+		<DefName>MRE_Recipe_Basic_Component</DefName>
+		<label>Make Basic Robot Component</label>
+		<description>Produce Robot Components which are used as logic circuits within a Robot Core.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>BaseMetals</li>
+						<li>MetalAlloys</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>BaseMetals</li>
+				<li>MetalAlloys</li>
+			</categories>
+			<thingDefs>
+				<li>Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MRE_Basic_Component>1</MRE_Basic_Component>
+		</products>
+	</RecipeDef>
+
+<!--  Robot Cores  -->
+	<!-- Tier 1 Core-->
+	<RecipeDef ParentName="MRE_RobotCore_Meta"> 
+		<defName>MRE_RobotCore_Tier1_Recipe</defName>
+		<label>Make Tier 1 Robot Core</label>
+		<description>Produce a robot logic core for crafting a robot for simple tasks.</description>
+		<ingredients>
+		<li>
+			<filter>
+			  <thingDefs>
+				<li>Plasteel</li>
+			  </thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MRE_Basic_Component</li>
+				</thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Silver</li>
+				<li>MRE_Basic_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MRE_Tier1_RobotCore>1</MRE_Tier1_RobotCore>
+		</products>
+		<researchPrerequisite>MRE_Tier1_Robotics</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- Tier 2 Core-->
+	<RecipeDef ParentName="MRE_RobotCore_Meta"> 
+		<defName>MRE_RobotCore_Tier2_Recipe</defName>
+		<label>Make Tier 2 Robot Core</label>
+		<description>Produce a robot logic core for crafting a robot for basic tasks.</description>
+		<ingredients>
+		<li>
+			<filter>
+			  <thingDefs>
+				<li>Plasteel</li>
+			  </thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MRE_Basic_Component</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+            		<li>BaseMetals</li>
+            		<li>MetalAlloys</li>
+          		</categories>
+			</filter>
+			<count>15</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+            	<li>BaseMetals</li>
+            	<li>MetalAlloys</li>
+			</categories>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Gold</li>
+				<li>MRE_Basic_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MRE_Tier2_RobotCore>1</MRE_Tier2_RobotCore>
+		</products>
+		<researchPrerequisite>MRE_Tier2_Robotics</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- Tier 3 Core-->
+	<RecipeDef ParentName="MRE_RobotCore_Meta"> 
+		<defName>MRE_RobotCore_Tier3_Recipe</defName>
+		<label>Make Tier 3 Robot Core</label>
+		<description>Produce a robot logical core for crafting a robot for more complex tasks.</description>
+		<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Plasteel</li>
+				</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+		<li>
+			<filter>
+			  <thingDefs>
+				<li>MRE_Tier2_RobotCore</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Gold</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+            		<li>BaseMetals</li>
+            		<li>MetalAlloys</li>
+				</categories>
+			</filter>
+			<count>15</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+            	<li>BaseMetals</li>
+            	<li>MetalAlloys</li>
+			</categories>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MRE_Tier2_RobotCore</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MRE_Tier3_RobotCore>1</MRE_Tier3_RobotCore>
+		</products>
+		<researchPrerequisite>MRE_Tier3_Robotics</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Tier 4 Core-->
+		<RecipeDef ParentName="MRE_RobotCore_Meta"> 
+		<defName>MRE_RobotCore_Tier4_Recipe</defName>
+		<label>Make Tier 4 Robot Core</label>
+		<description>Produce a robot logical core for crafting a robot which can learn (Tier 4).</description>
+		<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MRE_Tier3_RobotCore</li>
+				</thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Uranium</li>
+				</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>AIPersonaCore</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MRE_Tier3_RobotCore</li>
+				<li>Uranium</li>
+				<li>AIPersonaCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MRE_Tier4_RobotCore>1</MRE_Tier4_RobotCore>
+		</products>
+		<researchPrerequisite>MRE_Tier4_Robotics</researchPrerequisite>
+	</RecipeDef>
+
+<!--  Robot Recipes  -->
+	<!--  Cleaner Bot  -->
+	<RecipeDef ParentName="MRE_Robot_Tier1_Meta"> 
+		<defName>MRE_Recipe_Robot_Cleaner</defName>
+		<label>Make Cleaner Bot</label>
+		<description>Produce a unit capable of cleaning.</description>
+		<products>
+			<AIRobot_RechargeStation_Cleaner>1</AIRobot_RechargeStation_Cleaner>
+		</products>
+	</RecipeDef>
+	
+	<!-- Hauler Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier1_Meta"> 
+		<defName>MRE_Recipe_Robot_Hauler</defName>
+		<label>Make Hauler Bot</label>
+		<description>Produce a unit capable of hauling.</description>
+		<products>
+			<AIRobot_RechargeStation_Hauler>1</AIRobot_RechargeStation_Hauler>
+		</products>
+	</RecipeDef>
+
+	<!-- Miner Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier2_Meta"> 
+		<defName>MRE_Recipe_Robot_Miner</defName>
+		<label>Make Miner Bot</label>
+		<description>Produce a unit capable of mining.</description>
+		<products>
+			<AIRobot_RechargeStation_Miner>1</AIRobot_RechargeStation_Miner>
+		</products>
+	</RecipeDef>
+
+	<!-- Builder Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier2_Meta"> 
+		<defName>MRE_Recipe_Robot_Builder</defName>
+		<label>Make Builder Bot</label>
+		<description>Produce a unit capable of building.</description>
+		<products>
+			<AIRobot_RechargeStation_Builder>1</AIRobot_RechargeStation_Builder>
+		</products>
+	</RecipeDef>
+
+	<!-- Farmer Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier2_Meta"> 
+		<defName>MRE_Recipe_Robot_Farmer</defName>
+		<label>Make Farmer Bot</label>
+		<description>Produce a unit capable of farming.</description>
+		<products>
+			<AIRobot_RechargeStation_Farmer>1</AIRobot_RechargeStation_Farmer>
+		</products>
+	</RecipeDef>
+
+	<!-- Chef Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier2_Meta"> 
+		<defName>MRE_Recipe_Robot_Chef</defName>
+		<label>Make Chef Bot</label>
+		<description>Produce a unit capable of cooking.</description>
+		<products>
+			<AIRobot_RechargeStation_Chef>1</AIRobot_RechargeStation_Chef>
+		</products>
+	</RecipeDef>
+
+	<!-- Fire Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier3_Meta"> 
+		<defName>MRE_Recipe_Robot_Fire</defName>
+		<label>Make Fire Bot</label>
+		<description>Produce a unit capable of firefighting.</description>
+		<products>
+			<AIRobot_RechargeStation_Fire>1</AIRobot_RechargeStation_Fire>
+		</products>
+	</RecipeDef>
+
+	<!-- Doctor Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier3_Meta"> 
+		<defName>MRE_Recipe_Robot_Doctor</defName>
+		<label>Make Doctor Bot</label>
+		<description>Produce a unit capable of doctoring.</description>
+		<products>
+			<AIRobot_RechargeStation_Doctor>1</AIRobot_RechargeStation_Doctor>
+		</products>
+	</RecipeDef>
+
+	<!-- Learning Bot -->
+	<RecipeDef ParentName="MRE_Robot_Tier4_Meta"> 
+		<defName>MRE_Recipe_Robot_Crafter</defName>
+		<label>Make Crafting Bot</label>
+		<description>Produce a unit capable of learning and crafting.</description>
+		<products>
+			<AIRobot_RechargeStation_Crafter>1</AIRobot_RechargeStation_Crafter>
+		</products>
+	</RecipeDef>
+
+</RecipeDefs>

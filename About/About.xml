@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Misc. Robots Expansion</name>
+	<author>Sixdd</author>
+	<url></url>
+	<targetVersion>0.17.1546</targetVersion>
+	<description>This mod adds more robots to buy from traders and build yourself!:
+
+- ChefBot
+     A drone to help your chefs cooking
+- FarmerBot
+     A robot to help your farmers in the fields  
+- MinerBot
+     A robot to take the place of your miners
+- FireBot
+     A robot to help fight fires
+- DoctorBot
+     A robot to take the place of your doctors
+- BuilderBot
+     A robot to take the place of your builders
+- CrafterBot
+     A complex robot to take on crafting, starts at lower skill level but is capable of learning
+
+	
+Mod Version: 0.17.0.1
+	</description>
+</ModMetaData>

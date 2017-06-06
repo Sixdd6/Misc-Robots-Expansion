@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ThingDefs>
+
+	<ThingDef ParentName="BenchBase">
+	<DefName>RoboticsWorkbench</DefName>
+	<label>Robotics Workbench</label>
+	<ThingClass>Building_WorkTable</ThingClass>
+	<Description>A workbench tooled for the production of robots.</Description>
+	<graphicData>
+		<texPath>Things/Building/Production/RoboticsWorkbench</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3.5,1.5)</drawSize>
+		<damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+	</graphicData>
+	<CostList>
+		<Steel>150</Steel>
+		<Plasteel>30</Plasteel>
+		<Component>10</Component>
+	</CostList>
+	<constructEffect>ConstructMetal</constructEffect>
+	<AltitudeLayer>Building</AltitudeLayer>
+	<fillPercent>0.5</fillPercent>
+	<useHitPoints>True</useHitPoints>
+	<statBases>
+		<WorkToBuild>2000</WorkToBuild>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<Cleanliness>-1</Cleanliness>
+	</statBases>
+	<Size>(3,1)</Size>
+	<DesignationCategory>Production</DesignationCategory>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>60</pathCost>
+	<hasInteractionCell>True</hasInteractionCell>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<surfaceType>Item</surfaceType>
+	<recipes>
+		<!-- empty -->
+    </recipes>
+	<inspectorTabs>
+		<li>ITab_Bills</li>
+	</inspectorTabs>
+	<building>
+		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+	</building>
+	<comps>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<startElectricalFires>true</startElectricalFires>
+			<basePowerConsumption>100</basePowerConsumption>
+		</li>
+		<li Class="CompProperties_Flickable"/>
+		<li Class="CompProperties_AffectedByFacilities">
+			<linkableFacilities>
+				<li>ToolCabinet</li>
+			</linkableFacilities>
+		</li>
+		<li Class="CompProperties_Breakdownable"/>
+	</comps>
+	<placeWorkers>
+		<li>PlaceWorker_ShowFacilitiesConnections</li>
+	</placeWorkers>
+	<researchPrerequisites><li>MRE_Entry_Robotics</li></researchPrerequisites>
+   </ThingDef>
+   
+</ThingDefs>
