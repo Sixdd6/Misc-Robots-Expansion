@@ -250,7 +250,7 @@
 		<robotSkills>
 			<li>
 				<skillDef>Cooking</skillDef>
-				<level>14</level>
+				<level>12</level>
 			</li>
 		</robotSkills>
 		<destroyedDef>AIRobot_Chef_disabled</destroyedDef>
