@@ -234,8 +234,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>BaseMetals</li>
-						<li>MetalAlloys</li>
+						<li>Metals</li>
+						<li>CAL_Metals</li>
 					</categories>
 				</filter>
 				<count>1</count>
@@ -251,8 +251,8 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>BaseMetals</li>
-				<li>MetalAlloys</li>
+				<li>Metals</li>
+				<li>CAL_Metals</li>
 			</categories>
 			<thingDefs>
 				<li>Component</li>
@@ -341,8 +341,8 @@
 		<li>
 			<filter>
 				<categories>
-            		<li>BaseMetals</li>
-            		<li>MetalAlloys</li>
+            		<li>Metals</li>
+					<li>CAL_Metals</li>
           		</categories>
 			</filter>
 			<count>15</count>
@@ -350,8 +350,8 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-            	<li>BaseMetals</li>
-            	<li>MetalAlloys</li>
+            	<li>Metals</li>
+				<li>CAL_Metals</li>
 			</categories>
 			<thingDefs>
 				<li>Plasteel</li>
@@ -398,8 +398,8 @@
 		<li>
 			<filter>
 				<categories>
-            		<li>BaseMetals</li>
-            		<li>MetalAlloys</li>
+            		<li>Metals</li>
+					<li>CAL_Metals</li>
 				</categories>
 			</filter>
 			<count>15</count>
@@ -407,8 +407,8 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-            	<li>BaseMetals</li>
-            	<li>MetalAlloys</li>
+            	<li>Metals</li>
+				<li>CAL_Metals</li>
 			</categories>
 			<thingDefs>
 				<li>Plasteel</li>
