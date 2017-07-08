@@ -2,8 +2,8 @@
 <ModMetaData>
 	<name>Misc. Robots Expansion</name>
 	<author>Sixdd</author>
-	<url></url>
-	<targetVersion>0.17.1546</targetVersion>
+	<url>https://github.com/Sixdd6/Misc-Robots-Expansion</url>
+	<targetVersion>0.17.1557</targetVersion>
 	<description>This mod adds more robots to buy from traders and build yourself!:
 
 - ChefBot
@@ -21,7 +21,8 @@
 - CrafterBot
      A complex robot to take on crafting, starts at lower skill level but is capable of learning
 
-	
-Mod Version: 0.17.0.1
+     All robots are built at the Machining Table after completing the appropriate research.
+
+Mod Version: 0.17.0.2
 	</description>
 </ModMetaData>

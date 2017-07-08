@@ -15,8 +15,11 @@
 			<minLevel>10</minLevel>
 		</li>
 		</skillRequirements>
+		<researchPrerequisite>
+			<li>MRE_Tier1_Robotics</li>
+		</researchPrerequisite>
 		<recipeUsers>
-			<li>RoboticsWorkbench</li>
+			<li>TableMachining</li>
 		</recipeUsers>
 		<jobString>Engineering Robotics.</jobString>
 	</RecipeDef>
@@ -34,8 +37,11 @@
 				<minLevel>10</minLevel>
 			</li>
 		</skillRequirements>
+		<researchPrerequisite>
+			<li>MRE_Tier1_Robotics</li>
+		</researchPrerequisite>
 		<recipeUsers>
-			<li>RoboticsWorkbench</li>
+			<li>TableMachining</li>
 		</recipeUsers>
 		<jobString>Engineering Robotics.</jobString>
 	</RecipeDef>
@@ -82,7 +88,7 @@
 			<li>MRE_Tier1_Robotics</li>
 		</researchPrerequisite>
 		<recipeUsers>
-			<li>RoboticsWorkbench</li>
+			<li>TableMachining</li>
 		</recipeUsers>
 	</RecipeDef>
 	
@@ -128,7 +134,7 @@
 			<li>MRE_Tier2_Robotics</li>
 		</researchPrerequisite>
 		<recipeUsers>
-			<li>RoboticsWorkbench</li>
+			<li>TableMachining</li>
 		</recipeUsers>
 	</RecipeDef>
 	
@@ -174,7 +180,7 @@
 			<li>MRE_Tier3_Robotics</li>
 		</researchPrerequisite>
 		<recipeUsers>
-			<li>RoboticsWorkbench</li>
+			<li>TableMachining</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -220,7 +226,7 @@
 			<li>MRE_Tier4_Robotics</li>
 		</researchPrerequisite>
 		<recipeUsers>
-			<li>RoboticsWorkbench</li>
+			<li>TableMachining</li>
 		</recipeUsers>
 	</RecipeDef>
 
