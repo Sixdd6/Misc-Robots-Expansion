@@ -21,8 +21,6 @@
 - CrafterBot
      A complex robot to take on crafting, starts at lower skill level but is capable of learning
 
-     All robots are built at the Machining Table after completing the appropriate research.
-
-Mod Version: 0.17.0.2
+     All robots are built at the Machining Table after completing the appropriate research.\n\n
 	</description>
 </ModMetaData>
