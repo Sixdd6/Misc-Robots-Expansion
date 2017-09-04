@@ -118,7 +118,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MRE_Tier1_RobotCore</li>
+						<li>MRE_Tier2_RobotCore</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
